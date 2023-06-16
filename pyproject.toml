@@ -53,3 +53,7 @@ testpaths = [
   "beetsplug",
   "tests",
 ]
+filterwarnings = [
+    "ignore::DeprecationWarning:imghdr.*:",
+    "ignore:'imghdr' is deprecated:DeprecationWarning",
+]
